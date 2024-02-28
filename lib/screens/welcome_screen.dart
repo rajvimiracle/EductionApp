@@ -1,4 +1,4 @@
-import 'package:eductionapp/screens/home_screen.dart';
+import 'package:eductionapp/screens/HomeScreen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -28,7 +28,7 @@ class WelcomeScreen extends StatelessWidget {
                   borderRadius: BorderRadius.only(bottomRight: Radius.circular(70)),
                 ),
                 child: Center(
-                  child: Image.asset("assets/images/books.jpg",scale: 0.8,),
+                  child: Image.asset("assets/images/b.png",scale: 0.8,),
                 ),
               ),
             ],
